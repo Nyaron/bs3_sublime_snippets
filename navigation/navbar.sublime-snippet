@@ -1,0 +1,30 @@
+<snippet>
+    <content><![CDATA[
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#new-navbar" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <i class="fa fa-bars"></i>
+            </button>
+            <a href="#" class="navbar-brand">${1:Title}</a>
+        </div>
+        <div class="collapse navbar-collapse" id="new-navbar">
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a href="#">${2:Home}</a>
+                </li>
+                <li>
+                    <a href="#">${3:Link}</a>
+                </li>
+                <li>
+                    <a href="#">${4:Link}</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+]]></content>
+    <tabTrigger>bt3_navbar</tabTrigger>
+    <description>Component : Navbar</description>
+</snippet>

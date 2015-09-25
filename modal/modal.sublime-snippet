@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+<div class="modal fade" id="${1:id}" tabindex="-1" role="dialog" aria-labelledby="${2:label-id}">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aira-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="${2:label-id}">${3:Title}</h4>
+            </div>
+            <div class="modal-body">
+                ${4:Content}
+            </div>
+        </div>
+    </div>
+</div>
+]]></content>
+    <tabTrigger>bt3_modal</tabTrigger>
+    <description>Component : Modal</description>
+</snippet>
